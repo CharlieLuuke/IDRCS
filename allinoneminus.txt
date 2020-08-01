@@ -1,0 +1,11 @@
+/* Function all in one,f+delta */
+
+function allminus(x,u)
+  f = -sin(2*x) - x*u - 0.2*x - u^2 + u;
+  d = 1-exp(-0.5*(x^2+u^2));
+  lx = 1.5327*x^4 +2.3121*x^3 + 1.1286*x^2;
+  lxbarminus = 1.5327*(f-d)^4 +2.3121*(f-d)^3 + 1.1286*(f-d)^2;
+
+  return
+   lxbarminus-lx;
+  end
