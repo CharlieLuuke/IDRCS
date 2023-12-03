@@ -3,7 +3,7 @@
 Evalate the robust NID by IA approach
 Author: Luke
 Note: Line 88. Special operator for x_opt only to reduce the amount of the calculation.
-Modified: Aug 1,2020
+Modified: Aug 1,2020 Nov 28,2023
 """
 
 from pyibex import pyibex
