@@ -6,3 +6,9 @@ This suite is developed to estimate the negative-definite and invariant set in t
 [pyIbex](http://benensta.github.io/pyIbex/) is needed.
 
 ![Image text](https://github.com/CharlieLuuke/IDRCS/blob/master/Sample.bmp)
+
+RNS-SC Computation time:
+|Timing(s)\Platform | i5 3.2 GHZ |Athlon 2.7 GHZ   |
+| :---- | ----: | :----: | 
+|$L(x)=x^2$  | 21.16 | 43.69   |
+|$L^\ast(x)$ | 187.23 | 346.72  |
